@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A1C0E8861EA7E2DD0031BA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E8851EA7E2DD0031BA57 /* AppDelegate.swift */; };
-		A1C0E8881EA7E2DD0031BA57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E8871EA7E2DD0031BA57 /* ViewController.swift */; };
 		A1C0E88B1EA7E2DD0031BA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C0E8891EA7E2DD0031BA57 /* Main.storyboard */; };
 		A1C0E88D1EA7E2DD0031BA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C0E88C1EA7E2DD0031BA57 /* Assets.xcassets */; };
 		A1C0E8901EA7E2DD0031BA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C0E88E1EA7E2DD0031BA57 /* LaunchScreen.storyboard */; };
+		A1C0E89A1EA7E4E10031BA57 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E8991EA7E4E10031BA57 /* GreenViewController.swift */; };
+		A1C0E89C1EA7E4EE0031BA57 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E89B1EA7E4EE0031BA57 /* BlueViewController.swift */; };
+		A1C0E89E1EA7E4FA0031BA57 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E89D1EA7E4FA0031BA57 /* PinkViewController.swift */; };
+		A1C0E8A01EA7E5130031BA57 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E89F1EA7E5130031BA57 /* HamburgerViewController.swift */; };
+		A1C0E8A21EA7E51E0031BA57 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E8A11EA7E51E0031BA57 /* MenuViewController.swift */; };
+		A1C0E8A41EA7FCE00031BA57 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0E8A31EA7FCE00031BA57 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1C0E8821EA7E2DD0031BA57 /* HamburgerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburgerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C0E8851EA7E2DD0031BA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1C0E8871EA7E2DD0031BA57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1C0E88A1EA7E2DD0031BA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1C0E88C1EA7E2DD0031BA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C0E88F1EA7E2DD0031BA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C0E8911EA7E2DD0031BA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C0E8991EA7E4E10031BA57 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		A1C0E89B1EA7E4EE0031BA57 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A1C0E89D1EA7E4FA0031BA57 /* PinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		A1C0E89F1EA7E5130031BA57 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		A1C0E8A11EA7E51E0031BA57 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A1C0E8A31EA7FCE00031BA57 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		A1C0E8841EA7E2DD0031BA57 /* HamburgerView */ = {
 			isa = PBXGroup;
 			children = (
+				A1C0E8981EA7E4CC0031BA57 /* View Controllers */,
+				A1C0E8971EA7E4BB0031BA57 /* Views */,
 				A1C0E8851EA7E2DD0031BA57 /* AppDelegate.swift */,
-				A1C0E8871EA7E2DD0031BA57 /* ViewController.swift */,
 				A1C0E8891EA7E2DD0031BA57 /* Main.storyboard */,
 				A1C0E88C1EA7E2DD0031BA57 /* Assets.xcassets */,
 				A1C0E88E1EA7E2DD0031BA57 /* LaunchScreen.storyboard */,
 				A1C0E8911EA7E2DD0031BA57 /* Info.plist */,
 			);
 			path = HamburgerView;
+			sourceTree = "<group>";
+		};
+		A1C0E8971EA7E4BB0031BA57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0E8A31EA7FCE00031BA57 /* MenuCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A1C0E8981EA7E4CC0031BA57 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0E8991EA7E4E10031BA57 /* GreenViewController.swift */,
+				A1C0E89B1EA7E4EE0031BA57 /* BlueViewController.swift */,
+				A1C0E89D1EA7E4FA0031BA57 /* PinkViewController.swift */,
+				A1C0E89F1EA7E5130031BA57 /* HamburgerViewController.swift */,
+				A1C0E8A11EA7E51E0031BA57 /* MenuViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +127,7 @@
 				TargetAttributes = {
 					A1C0E8811EA7E2DD0031BA57 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 5NFEH37HHC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C0E8881EA7E2DD0031BA57 /* ViewController.swift in Sources */,
+				A1C0E8A41EA7FCE00031BA57 /* MenuCell.swift in Sources */,
+				A1C0E8A01EA7E5130031BA57 /* HamburgerViewController.swift in Sources */,
+				A1C0E89A1EA7E4E10031BA57 /* GreenViewController.swift in Sources */,
+				A1C0E8A21EA7E51E0031BA57 /* MenuViewController.swift in Sources */,
+				A1C0E89C1EA7E4EE0031BA57 /* BlueViewController.swift in Sources */,
 				A1C0E8861EA7E2DD0031BA57 /* AppDelegate.swift in Sources */,
+				A1C0E89E1EA7E4FA0031BA57 /* PinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NFEH37HHC;
 				INFOPLIST_FILE = HamburgerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bharath.HamburgerView;
@@ -274,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NFEH37HHC;
 				INFOPLIST_FILE = HamburgerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bharath.HamburgerView;
@@ -301,6 +340,7 @@
 				A1C0E8961EA7E2DD0031BA57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
